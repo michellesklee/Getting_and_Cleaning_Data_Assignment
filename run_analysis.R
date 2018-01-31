@@ -5,7 +5,7 @@ download.file(fileUrl,destfile="./data/Dataset.zip")
 #Unzip dataset to /data directory
 unzip(zipfile="./data/Dataset.zip",exdir="./data")
 
-#1. Merge the training and the test sets to create one data set.
+#Merge the training and the test sets to create one data set.
 
 #read training tables
 x_train <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
